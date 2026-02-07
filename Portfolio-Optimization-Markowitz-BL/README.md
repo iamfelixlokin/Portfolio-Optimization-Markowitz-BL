@@ -52,6 +52,7 @@ while maintaining comparable risk-adjusted performance.
 
 ## Project Structure
 
+```text
 src/
 ├── markowitz_bl.py      # Portfolio construction (Equal / MV / BL)
 ├── plot_backtest.py     # Equity & drawdown visualization
@@ -62,7 +63,7 @@ data/
 outputs/
 ├── weights/
 ├── performance/
-
+```
 ## Limitations & Future Work
 
 - Views are currently constructed using conservative, structured assumptions
